@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=1024" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>Node, NPM, Grunt, and Bower</title>
+  <title>History of JavaScript</title>
 
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" />
@@ -12,349 +12,100 @@
 <body>
   <div id="impress">
 
-    <div id="intro" class="step text-center" data-x="-5200" data-y="-4300" data-z="-500" data-rotate-x="0" data-rotate-y="0" data-scale="2">
-      <p>A brief introduction to...</p>
+    <div id="intro" class="step text-center" data-x="-3200" data-y="-4300" data-z="-500" data-rotate-x="0" data-rotate-y="0" data-scale="2">
+      <p>A history of...</p>
     </div>
 
-    <div id="node" class="step text-center" data-x="-4200" data-y="-3300" data-z="-400" data-rotate-x="-40" data-rotate-y="-10" data-scale="2">
+    <div id="js-logo" class="step text-center" data-x="-1200" data-y="-3300" data-z="-400" data-rotate-x="-40" data-rotate-y="-10" data-scale="2">
       <p>
-        <img src="assets/images/node-logo.png">
-      </p>
-    </div>
-
-    <div id="npm" class="step text-center" data-x="-3200" data-y="-3300" data-z="-300" data-rotate-x="-80" data-rotate-y="-20" data-scale="2">
-      <p>
-        <img src="assets/images/npm-logo.png">
-      </p>
-    </div>
-
-    <div id="grunt" class="step text-center" data-x="-2200" data-y="-2300" data-z="-200" data-rotate-x="-120" data-rotate-y="-30" data-scale="2">
-      <p>
-        <img src="assets/images/grunt-logo.png">
-      </p>
-    </div>
-
-    <div id="bower" class="step text-center" data-x="-1200" data-y="-1300" data-z="-100" data-rotate-x="-160" data-rotate-y="-40" data-scale="2">
-      <p>
-        <img src="assets/images/bower-logo.png">
+        <img style="max-width: 50%;" src="assets/images/JavaScript-logo.png" alt="JavaScript Logo">
       </p>
     </div>
 
     <div class="step slide" data-x="1000" data-y="-1500">
       <h1>
-        This presentation is NOT
+        The Beginning<span class="super">1</span>
       </h1>
       <ul>
-        <li>Suggesting we use JS to do Java or Ruby's jobs</li>
-        <li>About JS running on an application server, as a server-side scripting language, at all</li>
-        <li>Me trying to convert you to JS evangelists</li>
+        <li>In 1995, Breandan Eich created LiveScript while working for Netscape</li>
+        <li>His task was to make Netscape Navigator's newly added Java support more accessible</li>
+        <li>His audience was mostly web designers and developers who needed to be able to tie into page elements (forms, images, etc) without a compiler or knowledge of object-oriented programming.</li>
       </ul>
+      <img style="max-width: 25%;" class="center-img" src="assets/images/Brendan-Eich.jpg" alt="Headshot of Brendan Eich">
     </div>
 
     <div class="step slide" data-x="2000" data-y="-1500">
       <h1>
-        This presentation IS
+        Wait... What is Netscape Navigator?<span class="super">2</span>
       </h1>
+      <img class="center-img" src="assets/images/netscape-icon.png" alt="Netscape Navigator Icon">
       <ul>
-        <li>Hoping to ignite some curiousity about JS and modern front-end development</li>
-        <li>
-          Five parts
-          <ol>
-            <li>Recommending an independent front end</li>
-            <li>Intro to Node</li>
-            <li>Intro to NPM</li>
-            <li>Intro to Bower</li>
-            <li>Intro to GruntJS</li>
-          </ol>
-        </li>
+        <li>Netscape Navigator was a proprietary web browser and Internet Explorer's main competitor</li>
+        <li>They could still be around today, but...</li>
       </ul>
+      <img style="width: 50%;" class="center-img" src="assets/images/Netscape-navigator-usage.svg" alt="Netscape Usage Data">
+      <p style="text-align: center; font-size: 20px;">Usage share of Netscape Navigator, 1994–2007</p>
     </div>
 
-    <div id="preach" class="step" data-x="3500" data-y="-1500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
-      <q class="text-center">
-        When I hear a man preach, I like to see him act as if he were fighting bees.
-      </q>
-      <p class="text-right">
-        - Abraham Lincoln
-      </p>
+    <div id="sad-microsoft" class="step" data-x="3500" data-y="-1500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
+      <img style="width: 100%" src="assets/images/sad-microsoft.gif" alt="Microsoft is so sad gif">
     </div>
 
     <div class="step slide" data-x="3500" data-y="-500">
       <h1>
-        Front End-ependence
+        Back to LiveScript, I mean JavaScript
       </h1>
       <ul>
-        <li>
-          We have the tech to facilitate discreet front-end apps
-        </li>
-        <li>
-          Keep server side language OUT of the view
-        </li>
-        <li>
-          Don't burden front-end devs or your future selves
-        </li>
-        <li>
-          Promotes:
-          <ul>
-            <li>
-              Creating a client/device agnostic, reusable API
-            </li>
-            <li>
-              A fundamental, technological separation of presentation and application layers' concerns
-            </li>
-            <li>
-              Adaptability to changes in the rest of the stack
-            </li>
-          </ul>
-        </li>
+        <li>LiveScript was renamed JavaScript before the year ended</li>
+        <li>The language was widely used  to manipulate images</li>
+        <li>It was very easy to copy and paste snippets anywhere</li>
+        <li>Downside is that it could only be tested inside the browser</li>
+        <li>Internet Exploper was one version behind Navigator, which isn't a suprise.</li>
       </ul>
-      <span id="end-rant">/rant</span>
     </div>
 
-    <div id="node-again" class="step text-center" data-x="5000" data-y="-1500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
+    <div id="ecmascript" class="step slide" data-x="5000" data-y="-1500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
+      <h1>ECMAScript</h1>
       <p>
-        <img src="assets/images/node-logo.png">
+        <ul>
+          <li><strong>E</strong>uropean <strong>C</strong>omputer <strong>M</strong>anufacturer <strong>A</strong>ssociation</li>
+          <li>Netscape and Sun wanted to standardize the language</li>
+          <li>This partnership with ECMA was adopted in 1997</li>
+          <li>But in the meantime, things were all over the place</li>
+          <li>The <code>DOM</code> was still trying to become truly universal</li>
+        </ul>
       </p>
     </div>
 
     <div class="step slide" data-x="5000" data-y="-500">
       <h1>
-        What is NodeJS?
-      </h1>
-      <q>Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.</q>
-      <ul>
-        <li>
-          Open source and cross-platform
-        </li>
-        <li>
-          Event driven (EventEmitter API)
-        </li>
-        <li>
-          Single threaded
-        </li>
-        <li>
-          Non-blocking I/O
-        </li>
-        <li>
-          Uses <a href="https://github.com/libuv/libuv" title="libuv">libuv</a> under the hood which manages queueing, the event loop, workers, thread pooling, etc...
-        </li>
-        <li>
-          Checkout the <a href="https://nodejs.org/en/" title="Node JS">NodeJS</a> website
-        </li>
-      </ul>
-    </div>
-
-    <div class="step slide" data-x="5000" data-y="500" data-gif-path="assets/images/node-installed-1.gif">
-      <h1>
-        Installing Node
-      </h1>
-      <ol>
-        <li>
-          Go to <a href="https://nodejs.org/en/download/" title="Node Download">https://nodejs.org/en/download/</a>
-        </li>
-        <li>
-          Download and run installer.
-        </li>
-        <li>
-        </li>
-      </ol>
-      <div id="install-node-gif-wrap" class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div class="step slide" data-x="5000" data-y="1500" data-gif-path="assets/images/basic-node-commands.gif">
-      <h1>
-        Basic interpreting and interactive shell
-      </h1>
-      <div class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div id="npm-again" class="step text-center" data-x="6500" data-y="-1500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
-      <p>
-        <img src="assets/images/npm-logo.png">
-      </p>
-    </div>
-
-    <div class="step slide" data-x="6500" data-y="-500">
-      <h1>
-        What is NPM?
-      </h1>
-      <q>Installs, publishes and manages node programs</q>
-      <ul>
-        <li>
-          <strong>N</strong>ode <strong>P</strong>ackage <strong>M</strong>anager
-        </li>
-        <li>
-          package.json manifests
-        </li>
-        <li>
-          Uses
-          <a href="https://github.com/npm/node-semver" title="SemVer parser">
-            SemVer
-          </a>
-          (~, ^, =, <, >, <=, >=)
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/" title="NPM">NPM</a> hosts the world's largest repository of modules, in any language
-          <ul>
-            <li>Filesystem traversal & manipulation</li>
-            <li>Web application frameworks</li>
-            <li>Webservers, process managers, load balancers, etc...</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-
-    <div class="step slide" data-x="6500" data-y="500" data-gif-path="assets/images/global-package-install.gif">
-      <h1>
-        Global Packages
-      </h1>
-      <div class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div class="step slide" data-x="6500" data-y="1500" data-gif-path="assets/images/local-package-install.gif">
-      <h1>
-        Local Packages
-      </h1>
-      <div class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div class="step slide" data-x="6500" data-y="2500" data-gif-path="assets/images/dependency-injection-1.gif">
-      <h1>
-        Dependency Injection
+        ECMAScript Continued<span class="super">3</span>
       </h1>
       <ul>
-        <li>
-          Node knows to look in node_modules directory
-        </li>
-        <li>
-          Installs sub-dependencies flat until conflict, then nests
-        </li>
-      </ul>
-      <div class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div class="step slide" data-x="6500" data-y="3500" data-gif-path="assets/images/dependency-injection-2.gif">
-      <h1>
-        Dependency Injection Cont.
-      </h1>
-      <ol>
-        <li>Is it a "core" module (http, fs, etc...)?</li>
-        <li>Is it in local node_modules dir?</li>
-        <li>Traverse upwards to global packages dir</li>
-      </ul>
-      <div id="dep-injection-2-wrapper" class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div id="grunt-again" class="step text-center" data-x="8000" data-y="-1500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
-      <p>
-        <img src="assets/images/grunt-logo.png">
-      </p>
-    </div>
-
-    <div class="step slide" id="grunt-getting-started" data-x="8000" data-y="-500">
-      <h1>
-        What is Grunt?
-      </h1>
-      <q>The Javascript Task Runner</q>
-      <ul>
-        <li>
-          Built on Node
-        </li>
-        <li>
-          <a href="http://gruntjs.com/" title="Grunt">Grunt</a>
-          competes with
-          <a href="http://gulpjs.com/" title="Gulp">Gulp</a>
-        </li>
-        <li>
-          Automates your tasks so you don't have to
-          <ul>
-            <li>Compilation</li>
-            <li>Minification</li>
-            <li>Compression</li>
-            <li>Testing and Static analysis</li>
-          </ul>
-        </li>
+        <li><code>ECMAScript 2</code> releases in 1998</li>
+        <li><code>ECMAScript 3</code> releases in 1999</li>
+        <li>Work for <code>ES4</code> started in 2000</li>
+        <li>Yahoo! joined with Microsoft to oppose <code>ES4</code> with <code>ECMASCRIPT 3.1</code> in 2007</li>
+        <li>After some conflict, <code>ECMAScript 3.1</code> became <code>ECMAScript 5</code> in 2008</li>
+        <li><code>ES6</code> or <code>ECMAScript 2015</code> is now the new kid on the block</li>
       </ul>
     </div>
 
-    <div class="step slide" data-x="8000" data-y="500" data-gif-path="assets/images/grunt-getting-started.gif">
-      <h1>
-        Getting Started
-      </h1>
-      <div class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div class="step slide" data-x="8000" data-y="1500" data-gif-path="assets/images/grunt-initial-config.gif">
-      <h1>
-        Configuration
-      </h1>
-      <div class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div class="step slide" data-x="8000" data-y="2500" data-gif-path="assets/images/grunt-usage-examples.gif">
-      <h1>
-        Usage Examples
-      </h1>
-      <div class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div id="bower-again" class="step text-center" data-x="9500" data-y="-1500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-scale="1">
-      <p>
-        <img src="assets/images/bower-logo.png">
-      </p>
-    </div>
-
-    <div class="step slide" data-x="9500" data-y="-500">
-      <h1>
-        What is Bower?
-      </h1>
-      <q>A package manager for the web</q>
-      <ul>
-        <li>
-          Built on Node
-        </li>
-        <li>
-          bower.json manifest
-        </li>
-        <li>
-          Distinct from NPM
-        </li>
-        <li>
-          Bower manages consumables for browsers
-        </li>
-        <li>
-          Check out the <a href="http://bower.io/" title="Bower">Bower website</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="step slide" data-x="9500" data-y="500" data-gif-path="assets/images/bower-getting-started.gif">
-      <h1>
-        Getting started
-      </h1>
-      <div class="lice-cap-wrap">
-      </div>
-    </div>
-
-    <div class="step slide" data-x="9500" data-y="1500" data-gif-path="assets/images/bower-basic-usage.gif">
-      <h1>
-        Basic Usage
-      </h1>
-      <div class="lice-cap-wrap">
-      </div>
+    <div class="step text-center" data-x="6500" data-y="-1500">
+      <img style="width: 100%;" src="assets/images/bill-nie.gif" alt="Bill Nie Mind Blown">
     </div>
 
     <div id="questions" class="step" data-x="2500" data-y="1500" data-scale="15">
       <h1>Questions?</h1>
+    </div>
+
+    <div id="sources" class="step" data-x="2500" data-y="20000" data-scale="10">
+      <h1>Sources</h1>
+      <ul>
+        <li><span class="super">1</span><a href="http://archive.oreilly.com/pub/a/javascript/2001/04/06/js_history.html">JavaScript: How Did We Get Here?</a></li>
+        <li><span class="super">2</span><a href="https://en.wikipedia.org/wiki/Netscape_Navigator">Netscape Navigator Wiki</a></li>
+        <li><span class="super">3</span><a href="https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript">A Short History of JavaSCript Wiki</a></li>
+      </ul>
     </div>
   </div>
 
